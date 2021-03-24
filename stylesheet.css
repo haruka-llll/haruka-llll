@@ -1,0 +1,212 @@
+* {
+  font-family: serif;
+}
+
+.top-wrapper {
+  width: auto;
+  height: 240px;
+  background-color: #c1e4e9;
+}
+
+header {
+  padding: 30px 20px 0 20px;
+}
+
+.header-logo img{
+  width: 80px;
+}
+
+.fa-bars {
+  float: right;
+}
+
+.main-taxt {
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.7;
+  padding-top: 30px;
+}
+
+.h-container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.message-wrapper {
+  opacity: 0.9;
+  padding-top: 30px;
+}
+
+.message-wrapper h1 {
+  text-align: center;
+  font-size: 24px;
+  opacity: 0.8;
+}
+
+.list {
+  font-size: 11px;
+}
+
+.m-container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.new-message {
+  list-style: none;
+  padding-top: 30px;
+  display: inline-block;
+
+}
+
+.new-message li {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: solid 1px;
+}
+
+.date {
+  padding-bottom: 15px;
+  display: block;
+  font-size: 10px;
+}
+
+.date span {
+  border: solid 0.7px;
+  padding: 3px;
+  margin: 20px;
+}
+
+.description-wrapper {
+  height: auto;
+  padding-top: 40px;
+}
+
+.d-container {
+ width: 960px;
+ margin: 0 auto;
+ text-align: center;
+}
+
+.description-wrapper h1{
+  font-size: 24px;
+  opacity: 0.8;
+}
+
+.description-wrapper h2{
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.archivement-list {
+  list-style: none;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  display: inline;
+}
+
+.archivement-list li {
+  padding-bottom: 20px;
+}
+
+
+.archivement-list img{
+  width: 90%;
+  display: inline;
+}
+
+.archivement-list p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.archivement-list a {
+  font-size: 15px;
+  color: black;
+  width: 200px;
+  border-top: solid 0.8px;
+  border-bottom: solid 0.8px;
+  margin: 8px 0 20px 0;
+  opacity: 0.8;
+}
+
+.all {
+  border: solid 1px;
+  padding: 5px 30px;
+  color: black;
+}
+
+
+@media (max-width: 960px) {
+  .h-container {
+    width: 360px;
+  }
+  .m-container {
+    width: 360px;
+  }
+  .d-container {
+    width: 360px;
+  }
+
+
+  .v-container {
+    width: 360px;
+  }
+
+  .date span {
+    margin: 14px;
+    padding: 2.5px;
+  }
+
+}
+
+
+@media (min-width: 960px) {
+
+  .header-logo img {
+    width: 100px;
+  }
+
+  .top-wrapper {
+    height: 400px;
+  }
+
+  .main-taxt {
+    font-size: 18px;
+  }
+
+  .message-wrapper h1 {
+    font-size: 37px;
+  }
+
+  .new-message li {
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    border-bottom: solid 1px;
+    font-size: 22px;
+  }
+
+  .date {
+    font-size: 18px;
+  }
+
+  .archivement-list img {
+    display: inline-block;
+    width: 430px;
+  }
+
+  .archivement-list li{
+    float: left;
+    width: 50%;
+  }
+
+  .clear {
+    clear: left;
+  }
+
+  .all {
+    font-size: 20px;
+    margin-top: 40px;
+  }
+
+}
